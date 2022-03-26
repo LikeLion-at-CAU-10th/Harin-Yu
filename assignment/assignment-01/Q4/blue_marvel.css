@@ -1,0 +1,50 @@
+.card{
+    height: 1100px;
+    width: 900px;
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: rgb(219, 152, 114);
+}
+
+.country{
+    width: 400px;
+    margin: 40px;
+    padding: 10px;
+    font-size: 55px;
+    background-color: rgb(174, 173, 219);
+    border-radius: 50px;
+    border: 10px double rgb(85, 66, 116);
+}
+
+.description{
+    font-size: 45px;
+    padding: 5px 20px 20px 20px;
+}
+
+.photo{
+    margin: 80px 10px 10px 60px;
+    float:left;
+}
+
+.price{
+    font-size: 100px;
+    font-weight: 900;
+    margin: 140px 100px 10px 10px;
+    float:right;
+}
+
+.half{
+    height: 455px;
+    border: 3px solid black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(146, 177, 105);
+    margin: 50px 0px 0px 0px
+    
+    
+
+    
+    
+
+
+}
