@@ -1,0 +1,165 @@
+.layout-container{
+    display:flex;
+    flex-direction: column;
+
+
+    border-style:dotted;
+    border-color: black;
+    width: 900px;
+    height: 400px;
+}
+
+.first-container{
+    flex-basis: 10%;
+    background-color: rgb(202, 44, 44, 0.3);
+    justify-content: space-evenly;
+    justify-content: center;
+    text-align: right;
+
+    display: flex;
+}
+
+.first-1{
+    flex-grow: 1;
+    margin: 5px;
+
+    background-color:rgb(202, 44, 44, 0.5);
+}
+
+.first-2{
+    flex-grow: 4;
+    margin: 5px;
+
+    background-color:rgb(202, 44, 44, 0.7)
+
+}
+
+.second-container{
+    flex-basis: 10%;
+    background-color: rgb(224, 138, 9, 0.3);
+    justify-content: space-evenly;
+    justify-content: center;
+    text-align: center;
+
+    display:flex;
+}
+
+.second{
+    flex-grow: 1;
+    margin: 5px;
+
+    background-color: rgb(224, 138, 9, 0.5);
+
+}
+
+.third-container{
+    flex-basis: 20%;
+    background-color: rgb(250, 234, 94, 0.3);
+
+    display: flex;
+}
+
+.third-1{
+    flex-grow: 3;
+    margin: 5px;
+
+    background-color: rgb(250, 234, 94, 0.5);
+}
+
+.third-2{
+    flex-grow: 2;
+    margin: 5px;
+
+    background-color: rgb(250, 234, 94, 0.7);
+}
+
+
+.forth-container{
+    flex-basis: 20%;
+    background-color: rgb(33, 161, 5, 0.3);
+    text-align: center;
+
+    display: flex;
+
+}
+
+.forth-1{
+    flex-grow:3;
+    margin: 5px;
+    border-radius: 20px;
+
+    background-color: rgb(33, 161, 5, 0.5);
+
+}
+
+.forth-2{
+    flex-grow:2;
+    margin: 5px;
+    border-radius: 20px;
+
+    background-color: rgb(33, 161, 5, 0.7);
+}
+
+.fifth-container{
+    flex-basis: 40%;
+    background-color: rgb(52, 41, 155, 0.3);
+
+    display: flex;
+
+}
+
+.fifth-1{
+    flex-grow:2;
+    margin: 5px;
+
+    background-color: rgb(52, 41, 155, 0.5);
+    text-align: right;
+   
+}
+
+.fifth-2{
+    flex-grow:3;
+    margin: 5px;
+
+    background-color: rgb(52, 41, 155, 0.3);
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fifth-1-1{
+    flex-grow:1;
+    margin: 5px;
+
+    background-color: rgba(146, 37, 179, 0.7);
+    text-align: right;
+
+}
+
+.fifth-1-2{
+    flex-grow:1;
+    margin: 5px;
+
+    background-color: rgba(146, 37, 179, 0.5);
+
+    display: flex;
+}
+
+.six-1{
+    flex-grow:1;
+    margin: 5px;
+
+    background-color: rgba(190, 63, 142, 0.5);
+    text-align: center;
+
+}
+.six-2{
+    flex-grow:1;
+    margin: 5px;
+
+    background-color: rgba(190, 63, 142, 0.7);
+   
+ text-align: center;
+}
+
