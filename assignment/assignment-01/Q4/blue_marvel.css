@@ -1,6 +1,16 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+}
+
+body{
+    margin: 50px auto auto auto;
+}
+
+
 .card{
-    height: 1100px;
-    width: 900px;
+    height: 880px;
+    width: 630px;
     border: 3px solid black;
     border-radius: 5%;
     background-color: rgb(219, 152, 114);
@@ -8,43 +18,37 @@
 
 .country{
     width: 400px;
-    margin: 40px;
+    margin: 40px auto 40px auto;
     padding: 10px;
-    font-size: 55px;
+    font-size: 40px;
     background-color: rgb(174, 173, 219);
     border-radius: 50px;
     border: 10px double rgb(85, 66, 116);
 }
 
 .description{
-    font-size: 45px;
+    font-size: 30px;
     padding: 5px 20px 20px 20px;
 }
 
-.photo{
-    margin: 80px 10px 10px 60px;
-    float:left;
-}
+.container-half{
+    display: flex;
+    align-items: center;
 
-.price{
-    font-size: 100px;
-    font-weight: 900;
-    margin: 140px 100px 10px 10px;
-    float:right;
-}
-
-.half{
-    height: 455px;
+    height: 390px;
     border: 3px solid black;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     background-color: rgb(146, 177, 105);
-    margin: 50px 0px 0px 0px
-    
-    
+    margin: 50px 0px 0px 0px 
+}
 
-    
-    
+.item-photo{
+    width: 300px;
+    height: 200px;
+}
 
-
+.item-price{
+    font-size: 70px;
+    font-weight: 900;
 }
