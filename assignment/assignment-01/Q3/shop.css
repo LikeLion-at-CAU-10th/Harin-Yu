@@ -4,13 +4,19 @@
 }
 
 .text1{
-    margin: 30px auto auto auto;
+    margin: 30px auto 30px auto;
     font-size: 35px;
     color: rgb(236, 143, 186);
     font-weight: bold;
 }
+
 .vans{
     font-size: 30px;
+}
+
+.vans_photo{
+    width: 300px;
+    height: 300px;
 }
 
 .text2{
@@ -34,7 +40,6 @@
     font-weight: strong;
     padding: 10px 50px;
     font-size: 20px;
-    
 }
 
 .btn-green{
@@ -49,4 +54,17 @@
     margin : 10px 0 0 0;
 }
 
+/* table->div(flex 속성 이용) item 사이 간격 줄이기 위해 margin 조절 */
+.container{
+    display: flex;
+}
+
+.item1{
+    margin-left: 250px;
+
+}
+.item2{
+    margin-right: 250px;
+
+}
 
