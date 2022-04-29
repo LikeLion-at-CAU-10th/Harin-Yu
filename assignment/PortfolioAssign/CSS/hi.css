@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hi-page{
+    background-color: #d2aaf3;
+    padding: 30px 100px 30px 100px;
+    position: static;
+    height: 500px;
+    
+
+}
+
+.hi-header{
+    font-family: serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px #E7CFFA, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #E7CFFA,
+    0 0 82px #E7CFFA, 0 0 9px #E7CFFA, 0 0 12px #E7CFFA, 0 0 151px #E7CFFA;
+    position: relative;
+    
+}
+
+.hi-contents{
+    display: flex;
+    justify-content : center; 
+    flex-direction: column;
+    padding: 0px auto auto auto;
+}
+
+.hi-text-c{
+    display: flex;
+    justify-content : center;
+}
+
+.hi-text-i{
+    top: -90px;
+    font-family:'GmarketSansBold'; 
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+}
+#typing{
+    position: relative;
+}
+
+.hi-text-i::after {
+    content: "|";
+    animation: blink 1s step-end infinite;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+   
+  @keyframes blink {
+    0% {
+      opacity:1;
+    }
+    49% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+
+
+
+.memoticon{
+    align-self: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: -50px;
+}

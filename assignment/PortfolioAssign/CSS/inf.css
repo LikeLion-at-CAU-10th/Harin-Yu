@@ -1,0 +1,49 @@
+.information-page{
+    background-color: #959DDE;
+    padding: 30px 100px 30px 100px;
+    position: static;
+    height: 450px;
+
+}
+
+.information-header{
+    font-family: serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 7px #959DDE, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #959DDE,
+    0 0 82px #959DDE, 0 0 9px #959DDE, 0 0 12px #959DDE, 0 0 151px #959DDE;
+    
+}
+
+.information-contents{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 50px;
+
+    margin: 50px auto auto auto;
+ 
+}
+
+.memoticon-2{
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.information-text-c{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    
+    
+}
+
+.information-text-i{
+    font-size: 20px;
+    font-family:'GmarketSansBold';
+    color: white;
+    align-self: center;
+}
+

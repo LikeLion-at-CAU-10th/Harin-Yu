@@ -1,0 +1,151 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: auto;
+    padding: auto;
+}
+
+.menu-bar{
+    position : fixed;
+    width : 100%;
+    height: 40px;
+}
+
+
+.menu-bar-i{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    justify-content: end;
+
+}
+
+li{
+    list-style:none;
+    float: left;
+    position: relative;
+    margin: 5px 30px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3)
+
+    
+    
+}
+
+
+.main-page{
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+    font-family: serif;
+    font-size: 65px;
+    font-weight: bold;
+     
+}
+
+.initial{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /*수직 상에서 가운데 정렬*/
+    justify-content : center;   /*수평 상에서 가운데 정렬 */
+
+}
+
+.initial-item{
+    flex-basis: 100px;
+}
+
+.hi{
+    color: #E7CFFA;
+    text-shadow: 0 0 7px #E7CFFA, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #E7CFFA,
+    0 0 82px #E7CFFA, 0 0 9px #E7CFFA, 0 0 12px #E7CFFA, 0 0 151px #E7CFFA;
+}
+
+.hi:hover{
+    font-size:0;
+}
+
+.hi:hover:before{
+    content: 'Hi';
+    font-size: 80px;
+    color: #d8b3f6;
+    
+}
+
+
+.information{
+    color: #959DDE;
+    text-shadow: 0 0 7px #959DDE, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #959DDE,
+    0 0 82px #959DDE, 0 0 9px #959DDE, 0 0 12px #959DDE, 0 0 151px #959DDE;
+}
+
+.information:hover{
+    font-size:0;
+}
+
+.information:hover:before{
+    content: 'informAtion';
+    font-size: 80px;
+    color: #7f89d7;
+    
+}
+
+.portfolio{
+    color:  #B0E5F5;
+    text-shadow: 0 0 7px #B0E5F5, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #B0E5F5,
+    0 0 82px #B0E5F5, 0 0 9px #B0E5F5, 0 0 12px #B0E5F5, 0 0 151px #B0E5F5;
+
+}
+
+.portfolio:hover{
+    font-size:0;
+}
+
+.portfolio:hover:before{
+    content: 'poRtfolio';
+    font-size: 80px;
+    color: #90dbf1; 
+    
+}
+
+.interest{
+    color: #95DEBD;
+    text-shadow: 0 0 7px #95DEBD, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #95DEBD,
+    0 0 82px #95DEBD, 0 0 9px #95DEBD, 0 0 12px #95DEBD, 0 0 151px #95DEBD;
+}
+
+.interest:hover{
+    font-size:0;
+}
+
+.interest:hover:before{
+    content: 'Interest';
+    font-size: 80px;
+    color: #78d8ad;
+}
+
+.contact{
+    color: #d8dfab;
+    text-shadow: 0 0 7px #d8dfab, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #d8dfab,
+    0 0 82px #d8dfab, 0 0 9px #d8dfab, 0 0 12px #d8dfab, 0 0 151px #d8dfab;
+}
+
+.contact:hover{
+    font-size:0;
+}
+
+.contact:hover:before{
+    content: 'coNtact';
+    font-size: 80px;
+    color: #d2de84;
+    
+}
+
+
+
+
+
+
+
+
+
+    

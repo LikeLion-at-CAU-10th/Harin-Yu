@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+.day-night{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: -40px;
+
+}
+
+.label{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50px;
+    height: 26px;
+    background-color: #111;
+    border-radius: 50px;
+
+    transform: scale(1.5);
+    position: relative;
+
+}
+
+.ball{
+    position: absolute;
+    background-color:aliceblue;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+
+    top:2px;
+    left:2px;
+
+    transition: transform 0.2s ease-out;
+}
+
+body.dark{
+    background: #292C35;
+}
+
+body.dark .menu-bar-i{
+    background-color: rgba(41, 44, 53, 0.3);
+
+}
+
+body.dark .hi-page{
+    background-color: #1e0731;;
+}
+
+body.dark .information-page{
+    background-color: #0c1031;
+}
+
+body.dark .portfolio-page{
+    background-color: #0b3440;
+}
+
+body.dark .interest-page{
+    background-color: #03190f;
+}
+
+body.dark .contact-page{
+    background-color: #1f2304;
+}
+
+.checkbox:checked + .label .ball{
+    transform: translateX(24px); 
+   
+}
+
+.checkbox{
+    position: absolute;
+    opacity: 0;
+}
+
+.fa-moon{
+    color: #f1c40f;
+}
+
+.fa-sun{
+    color: #f39c12;
+}

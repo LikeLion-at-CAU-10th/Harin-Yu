@@ -1,0 +1,73 @@
+.interest-page{
+    background-color: #95DEBD;
+    padding: 30px 100px 30px 100px;
+    padding: 30px 100px 30px 100px;
+    position: static;
+    height: 500px;
+}
+
+.interest-header{
+    font-family: serif;
+    font-size: 50px;
+    margin: auto auto 35px auto;
+    color: white;
+    text-shadow: 0 0 7px #95DEBD, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #95DEBD,
+    0 0 82px #95DEBD, 0 0 9px #95DEBD, 0 0 12px #95DEBD, 0 0 151px #95DEBD;
+    
+}
+
+.interest-contents{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 50px;
+    
+}
+.photos-c{
+    display: flex;
+}
+
+.memoticon-4{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    right: -350px;
+    align-self: center;
+    z-index: 1;
+
+
+}
+
+.inter-pho{
+    width: 300px;
+    height: 160px;
+    position: relative;
+}
+
+.photos-i-1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -200px;
+    
+    
+}
+
+.photos-i-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -633px;
+    right: -500px;
+    
+}
+
+.inter-pho:hover {
+    opacity:0.4;
+}
+
+
+
+
+
+
+

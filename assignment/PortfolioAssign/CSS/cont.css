@@ -1,0 +1,72 @@
+.contact-page{
+    background-color: #d2de84;
+    padding: 30px 100px 30px 100px;
+    position: static;
+    height: 200px;
+}
+
+
+.contact-header{
+    font-family: serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 7px #d8dfab, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #d8dfab,
+    0 0 82px #d8dfab, 0 0 9px #d8dfab, 0 0 12px #d8dfab, 0 0 151px #d8dfab;
+}
+
+.contact-text-i{
+    padding: 0;
+    margin: 0;
+    
+    display: flex;
+    justify-content : center;
+    align-items: center; 
+}
+
+.contact-text-i li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.contact-text-i li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+.contact-text-i li .fab:hover{
+    color: #fff;
+}
+
+.contact-text-i li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.contact-text-i li a:hover{
+    transform: translate(0, -10%);
+}
+
+.contact-text-i li:nth-child(1) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.contact-text-i li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.contact-text-i li:nth-child(3) a:hover{
+    background-color: #0077b5;
+}
+
+.email{
+    width:35px;
+    height: 25px;
+}
+

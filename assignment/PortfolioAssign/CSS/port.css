@@ -1,0 +1,47 @@
+.portfolio-page{
+    background-color: #95daef;
+    padding: 30px 100px 30px 100px;
+    position: static;
+    height: 300px;
+}
+
+.portfolio-header{
+    font-family: serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 7px #B0E5F5, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #B0E5F5,
+    0 0 82px #B0E5F5, 0 0 9px #B0E5F5, 0 0 12px #B0E5F5, 0 0 151px #B0E5F5;
+    
+}
+
+.portfolio-contents{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 50px;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.memoticon-3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio-text{
+    font-size: 30px;
+    font-family: 'GmarketSansBold';
+    color: white;
+}
+
+.dot{
+    font-size: 50px;
+
+}
+
+
+
