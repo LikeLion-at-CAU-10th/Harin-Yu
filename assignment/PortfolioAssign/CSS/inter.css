@@ -19,19 +19,20 @@
 .interest-contents{
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 50px;
+    max-height: 100%;
     
 }
 .photos-c{
     display: flex;
+    justify-content: center;
 }
 
 .memoticon-4{
     width: 300px;
     height: 300px;
     position: relative;
-    top: -300px;
-    right: -350px;
     align-self: center;
+    bottom: -12px;
     z-index: 1;
 
 
@@ -47,17 +48,18 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    right: -200px;
-    
+    right: -150px;
     
 }
+
+
 
 .photos-i-2{
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -633px;
-    right: -500px;
+    left: -150px;
+    
     
 }
 
@@ -65,9 +67,22 @@
     opacity:0.4;
 }
 
+.inter-pho-c{
+    display: flex;
+    justify-content: center;
+}
 
+.photo-text{
+    position: absolute; 
+    align-self: center;   
+    opacity: 0; 
+    color: white;
+    font-family: 'GmarketSansBold';
+    font-size: 30px;;
+    
+}
 
-
-
-
-
+.inter-pho-c:hover .photo-text {
+    visibility:visible;
+    opacity: 1;
+}
