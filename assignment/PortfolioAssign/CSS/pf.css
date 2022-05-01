@@ -5,6 +5,7 @@ html{
 body{
     margin: auto;
     padding: auto;
+    overflow-x: hidden;
 }
 
 .menu-bar{
