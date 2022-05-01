@@ -52,19 +52,11 @@
     
 }
 
-
-
 .photos-i-2{
     display: flex;
     flex-direction: column;
     position: relative;
     left: -150px;
-    
-    
-}
-
-.inter-pho:hover {
-    opacity:0.4;
 }
 
 .inter-pho-c{
@@ -74,15 +66,17 @@
 
 .photo-text{
     position: absolute; 
-    align-self: center;   
-    opacity: 0; 
+    align-self: center;  
+    visibility: hidden;
     color: white;
     font-family: 'GmarketSansBold';
     font-size: 30px;;
-    
 }
 
-.inter-pho-c:hover .photo-text {
+.inter-pho-c:hover .inter-pho  {
+    opacity:0.4;
+}
+
+.inter-pho-c:hover .photo-text{
     visibility:visible;
-    opacity: 1;
 }
