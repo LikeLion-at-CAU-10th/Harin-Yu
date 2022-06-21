@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+.memoticon {
+    width: 200px;
+    height: 200px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+.memoticon {
+    width: 250px;
+    height: 250px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+.memoticon {
+    width: 300px;
+    height: 300px;
+    }
+}
+/*# sourceMappingURL=mixin.css.map */

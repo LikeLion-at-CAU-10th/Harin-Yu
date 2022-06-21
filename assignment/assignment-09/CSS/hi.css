@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hi-page{
+    background-color: #d2aaf3;
+    padding: 5vw 20vw 5vw 10vw;
+    position: static;
+    /* height: 500px; */
+    height: 50vw;
+    
+}
+
+.hi-header{
+    font-family: serif;
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 7px #E7CFFA, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #E7CFFA,
+    0 0 82px #E7CFFA, 0 0 9px #E7CFFA, 0 0 12px #E7CFFA, 0 0 151px #E7CFFA;
+    position: relative;
+    
+}
+
+.hi-contents{
+    display: flex;
+    justify-content : center; 
+    flex-direction: column;
+    padding: 0px auto auto auto;
+}
+
+.hi-text-c{
+    display: flex;
+    justify-content : center;
+}
+
+/* 미디어 쿼리 적용한 부분 */
+.hi-text-i{
+    top: -9vw;
+    font-family:'GmarketSansBold'; 
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:1200px) {
+  .hi-text-i {font-size:4pvw}
+}
+@media (max-width:768px) {
+  .hi-text-i {font-size:3vw}
+}
+@media (max-width:600px) {
+  .hi-text-i {font-size:2vw}
+}
+/* 미디어 쿼리 적용한 부분 */
+
+#typing{
+    position: relative;
+}
+
+.hi-text-i::after {
+    content: "|";
+    animation: blink 1s step-end infinite;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity:1;
+    }
+    49% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+
+
+
+.memoticon{
+    align-self: center;
+    position: relative;
+    top: -6vw;
+    width: 30vw;
+    height:30vw;
+
+}

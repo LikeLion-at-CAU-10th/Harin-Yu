@@ -1,0 +1,34 @@
+@import './var.scss';
+
+@mixin rt($media) {
+    @if $media == mobile{
+        @media only screen and (max-width : $tabletSize) {@content;}
+    }
+    @else if $media == tablet{
+        @media only screen and (min-width : $tabletSize) and (max-width : $pcSize) {@content;}
+    }
+    @else if $media == pc{
+        @media only screen and (min-width : $pcSize){@content;}
+    }
+}
+
+//hi 페이지에 있는 미모티콘 사진
+.memoticon{
+    @include rt(mobile) {
+        width: 200px;
+        height: 200px;
+    }
+    @include rt(tablet) {
+        width: 250px;
+        height: 250px;
+    }
+    @include rt(pc) {
+        width: 300px;
+        height: 300px;
+        
+    }
+}
+
+
+
+

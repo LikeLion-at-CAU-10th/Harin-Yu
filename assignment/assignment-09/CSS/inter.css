@@ -1,0 +1,90 @@
+.interest-page{
+    background-color: #95DEBD;
+    padding: 5vw 20vw 5vw 10vw;
+    position: static;
+    /* height: 500px; */
+    height: 50vw;
+}
+
+.interest-header{
+    font-family: serif;
+    font-size: 5vw;
+    margin: auto auto 3.5vw auto;
+    color: white;
+    text-shadow: 0 0 7px #95DEBD, 0 0 10px #fff, 0 0 1px #fff, 0 0 42px #95DEBD,
+    0 0 82px #95DEBD, 0 0 9px #95DEBD, 0 0 12px #95DEBD, 0 0 151px #95DEBD;
+    
+}
+
+.interest-contents{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 50px;
+    max-height: 100%;
+    
+}
+.photos-c{
+    display: flex;
+    justify-content: center;
+}
+
+.memoticon-4{
+    width: 30vw;
+    height: 30vw;
+    position: relative;
+    align-self: center;
+    bottom: -1.2vw;
+    z-index: 1;
+
+
+}
+
+/* 미디어 쿼리 적용 */
+.inter-pho{
+    position: relative;
+    width: 30vw;
+    height: 16vw;
+}
+
+
+
+.photos-i-1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -15vw;
+    
+}
+
+.photos-i-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -15vw;
+}
+
+.inter-pho-c{
+    display: flex;
+    justify-content: center;
+}
+
+.photo-text{
+    position: absolute; 
+    align-self: center;  
+    visibility: hidden;
+    color: white;
+    font-family: 'GmarketSansBold';
+    font-size: 30px;;
+}
+
+.inter-pho-c:hover .inter-pho  {
+    opacity:0.4;
+}
+
+.inter-pho-c:hover .photo-text{
+    visibility:visible;
+}
+
+
+
+
+
