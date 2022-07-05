@@ -1,5 +1,4 @@
-# react01
-
+# react01 assignment
 <img width="1172" alt="스크린샷 2022-07-05 오후 2 55 29" src="https://user-images.githubusercontent.com/101720703/177259283-d8464081-e722-439e-810c-e18b29ace193.png">
 
 # Getting Started with Create React App
