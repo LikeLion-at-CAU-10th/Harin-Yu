@@ -1,0 +1,14 @@
+{
+
+        "images":[
+            {"id":1, "img":"img/cat.jpg"},
+            {"id":2, "img":"img/dog.jpg"},
+            {"id":3, "img":"img/dolphin.jpg"}
+        ],
+    
+        "texts":[
+            {"id":1, "comp": "고양이"},
+            {"id":2, "comp":"강아지"},
+            {"id":3, "comp":"돌고래"}
+        ]
+}
