@@ -1,0 +1,81 @@
+body{
+    margin: 50px;
+}
+
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    /*flex-direction을 column으로 줬기 때문-> 여백 간격이 세로로 적용 (title, head, contents)*/
+
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    
+    
+}
+
+.layout-first{
+    display: flex; 
+
+    /*layout-first를 컨테이너로, first를 아이템으로 보고 적용*/
+    justify-content : center; /*컨테이너(layout-first) 속 item 박스(first) 가운데 정렬*/
+    justify-content : space-evenly; /*item 박스 간에 여백 간격 동일하게*/
+
+    flex-basis: 15%; 
+    /* layout-container에 대한 세로 비율 (flex-direction: column으로 줬기 때문) */
+
+}
+
+.first{
+    flex-basis: 95%;
+    background-color: rgb(91, 133, 189);
+
+    /*first를 컨테이너로 봤을 때, 그 안에 있는 텍스트('Title')를 아이템으로 인식*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-secend{
+    display: flex; 
+    background-color: rgb(0, 0, 0);
+
+    justify-content : center;
+    justify-content : space-evenly;
+
+    flex-basis: 10%;
+    
+}
+
+.secend{
+    flex-basis: 22%; /* 각 아이템들이 차지하는 비율 */
+    background-color: rgb(189, 82, 148);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.layout-third{
+    display: flex; 
+    background-color: rgb(0, 0, 0);
+
+    justify-content : center;
+    justify-content : space-evenly;
+    flex-basis: 65%;
+
+} 
+
+.third{
+    flex-basis: 30%;
+    background-color: rgb(75, 151, 88);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
