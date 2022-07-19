@@ -1,3 +1,7 @@
+#리액트 3번째 세션 과제
+<img width="728" alt="스크린샷 2022-07-19 오후 1 04 13" src="https://user-images.githubusercontent.com/101720703/179667658-8e8c6f5f-fdd5-41ff-86f7-6c69a55484fd.png">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
