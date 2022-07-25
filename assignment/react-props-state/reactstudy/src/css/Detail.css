@@ -1,0 +1,13 @@
+.textMenu{
+    color: grey;
+    width: 30%;
+    font-weight: 600;
+
+}
+
+.textContents{
+    width: 100%;
+    font-weight: 500;
+    margin : 0 0 0 10px;
+    
+}

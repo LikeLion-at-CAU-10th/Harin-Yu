@@ -1,28 +1,45 @@
 import React from 'react'
-import Boxb from './Boxb'
-import styled from "styled-components";
+import Boxb from './pages/Boxb'
 import "./App.css";
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import ProductDetail from './pages/ProductDetail';
+import {StyledApp,StyledCard,StyledHeader} from './styled'
+import ToSearch from './components/ToSearch';
 
-const StyledApp=styled.div`
-display:flex;
-justify-content:center;
-`;
-
-const StyledCard=styled.div`
-width: 100vh;
-`;
 
 const App = () => {
   return (
-    <StyledApp>
+    <>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <StyledApp>
+              <StyledCard>
+                <StyledHeader>
+                  <h3>인기중고</h3>
+                  <ToSearch></ToSearch>
+                </StyledHeader>
 
-      <StyledCard>
-      <h3>인기중고</h3>
-      <Boxb />
-      </StyledCard>
+              <Boxb />
+              </StyledCard>
+            </StyledApp>}></Route>
+            
+        {/* App.js에서는 상세 페이지 주소(path)와 해당 주소에서 그려질 페이지 컴포넌트를(element)를 작성*/}
+        {/* Boxb.js에서는 useNavigate를 이용하여 url 파라미터(detailID)를 전달 */}
+        {/* ProductDetail.js에서는 useParams를 통해 url 파라미터를 넘겨받고 해당 주소에 맞는 화면을 그려줌 */}
+        <Route
+          path="/detail/:detailID"
+          element={
+            <ProductDetail/>
+          }>
+            
+        </Route>
 
-      
-    </StyledApp>
+      </Routes>
+      </Router>
+    </>
     
     
   );
