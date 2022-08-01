@@ -8,6 +8,7 @@ import ToSearch from './components/ToSearch';
 
 
 const App = () => {
+
   return (
     <>
     <Router>
@@ -32,7 +33,7 @@ const App = () => {
         <Route
           path="/detail/:detailID"
           element={
-            <ProductDetail/>
+            <ProductDetail />
           }>
             
         </Route>
