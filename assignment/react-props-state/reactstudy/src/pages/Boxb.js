@@ -21,12 +21,13 @@ const Boxb = () => {
     const [productList, setProductList] = useState([]);
 
     useEffect(()=>{
-        axios.get("https://9abff952-ea24-484a-ad0a-e7167e39a5fb.mock.pstmn.io/session5")
-        .then(response=>{
+        const fetchData = async () => {
+            const response = await axios.get("https://9abff952-ea24-484a-ad0a-e7167e39a5fb.mock.pstmn.io/session5");
             setProductList(response.data.products);
+        };
+        fetchData();
+    },[]);
 
-        })
-    })
     console.log(productList);
 
     if(!productList){ return null;}
