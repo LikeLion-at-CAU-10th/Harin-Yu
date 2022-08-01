@@ -31,7 +31,7 @@ const App = () => {
         {/* Boxb.js에서는 useNavigate를 이용하여 url 파라미터(detailID)를 전달 */}
         {/* ProductDetail.js에서는 useParams를 통해 url 파라미터를 넘겨받고 해당 주소에 맞는 화면을 그려줌 */}
         <Route
-          path="/detail/:detailID"
+          path=":id"
           element={
             <ProductDetail />
           }>

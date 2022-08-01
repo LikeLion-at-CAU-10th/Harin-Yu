@@ -1,6 +1,5 @@
-//map 함수 사용할 때 : 박스 별로 키 값을 부여->고유한 값으로 식별 가능
 import React, {useEffect, useState} from 'react';
-import detail from "../data/productDetail.js"
+// import detail from "../data/productDetail.js"
 import "../css/Boxb.css"
 import LikeButton from "../components/LikeButton";
 import {useNavigate, Link} from 'react-router-dom';
@@ -15,14 +14,14 @@ import {
 
 const Boxb = () => {
     const navigate = useNavigate();
-    const handleClick =(url) => {
-        navigate(url);
-    };
+    const handleClick=(url, id)=>{
+        navigate(url, {state:productList[id-1]})
+    }
 
     const [productList, setProductList] = useState([]);
 
     useEffect(()=>{
-        axios.get("https://2843af2c-32a2-4533-83aa-9901836e6a9e.mock.pstmn.io/session5")
+        axios.get("https://9abff952-ea24-484a-ad0a-e7167e39a5fb.mock.pstmn.io/session5")
         .then(response=>{
             setProductList(response.data.products);
 
@@ -30,19 +29,17 @@ const Boxb = () => {
     })
     console.log(productList);
 
-    // if(!productList){ return null;}
+    if(!productList){ return null;}
 
-    // const handleClick=(url, id)=>{
-    //     navigate(url, {state:productList[id-1]})
-    // }
+
     
     return <>{productList.map((product)=>(
         <>
 
             <StyledBox key={product.id}>
-                {/* <Link to= "" > */}
+                <Link to= "" >
                     <img src={product.img} alt="no imag"></img>
-                    {/* </Link> */}
+                </Link>
                 
                     <textitem>
                         <p><b>{product.title}</b></p>
@@ -53,7 +50,7 @@ const Boxb = () => {
                         </TextContainer>
 
                         {/* 상세보기 버튼 */}
-                        <Button onClick={()=> handleClick('/detail/' + product.id)}> 상세보기 </Button> 
+                        <Button onClick={()=> handleClick(`${product.id}`, product.id)}> 상세보기 </Button> 
                     </textitem>
             
             </StyledBox>

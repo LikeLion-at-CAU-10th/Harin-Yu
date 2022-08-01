@@ -1,5 +1,5 @@
 import React from "react";
-import LikeImg from '../data/img/Like.png';
+// import LikeImg from "../../img/Like.png"
 import styled from "styled-components";
 
 const CountBoxCon=styled.div`
@@ -10,7 +10,7 @@ padding: 1.5px;
 const CountLikeBox = (props) => {
     return (
         <CountBoxCon>
-            <img className="Like" src={LikeImg} alt="no imag" onClick={props.addCount}></img>
+            <img className="Like" src="../img/Like.png" alt="no imag" onClick={props.addCount}></img>
             <span> {props.count} </span>
         </CountBoxCon>
         

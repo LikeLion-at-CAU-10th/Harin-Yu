@@ -1,15 +1,15 @@
-import one from "./img/one.png"
-import two from "./img/two.png"
-import three from "./img/three.png"
-import four from "./img/four.png"
-import five from "./img/five.png"
-import six from "./img/six.png"
+// import one from "./img/one.png"
+// import two from "./img/two.png"
+// import three from "./img/three.png"
+// import four from "./img/four.png"
+// import five from "./img/five.png"
+// import six from "./img/six.png"
 
 const detail = {
     detailProd: [
     {
         id: "1",
-        img: one,
+        // img: one,
         title:"신세계 상품권",
         address:"서울 동작구 대방동",
         price:"90,000원",
@@ -17,7 +17,7 @@ const detail = {
     },
     {
         id: "2",
-        img: two,
+        // img: two,
         title:"프리즘 32인치 tv",
         address:"서울 동작구 대방동",
         price:"20,000원",
@@ -25,7 +25,7 @@ const detail = {
     },
     {
         id:"3", 
-        img: three,
+        // img: three,
         title:"성인여성자전거",
         address:"대방동",
         price :"30,000원",
@@ -34,7 +34,7 @@ const detail = {
     },
     {
         id:"4", 
-        img: four,
+        // img: four,
         title:"샤오미 에어램프",
         address:"서울",
         price :"30,000원",
@@ -42,7 +42,7 @@ const detail = {
     },
     {
         id:"5", 
-        img: five,
+        // img: five,
         title: "컬쳐랜드문화상품권",
         address:"동작구",
         price :"17,000원",
@@ -50,7 +50,7 @@ const detail = {
     },
     {
         id:"6", 
-        img: six,
+        // img: six,
         title: "롯데상품권",
         address:"서울시",
         price :"188,000원",
